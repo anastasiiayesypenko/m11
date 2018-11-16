@@ -1,7 +1,0 @@
-[user]
-	name = Anastasiia Yesypenko
-	email = nastiyayesypenko@ukr.net
-[core]
-	autocrlf = true
-	safecrlf = false
-	quotepath = off
