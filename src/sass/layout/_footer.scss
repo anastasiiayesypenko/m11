@@ -1,0 +1,42 @@
+.footer {
+    width: 1200px;
+    margin: 0 auto;
+    min-height: 65px;
+}
+.line {
+    background-color: $line-color;
+    width: 100%;
+    height: 2px;
+}
+.footer-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.subscribe__input {
+    margin-top: 10px;
+    padding-left: 12px;
+    height: 40px;
+    width: 230px;
+    font-family: $roboto-font, sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    color: $grey-color;
+    font-style: 15px;
+    line-height: 24px;
+    border: 1px solid $border-color;
+}
+.subscribe__button {
+    height: 40px;
+    width: 150px;
+    background-color: $main-color;
+    border: none;
+    color: $white-color;
+    font-family: $montserrat-font, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+}
